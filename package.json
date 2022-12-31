@@ -1,0 +1,24 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "rest api for books",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./src/server.js",
+    "dev": "NODE_PORT=8080 nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "restu indera",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "joi": "^17.6.3",
+    "nanoid": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "nodemon": "^2.0.20"
+  },
+  "type": "module"
+}
